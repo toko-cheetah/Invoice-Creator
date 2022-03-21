@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    
+    <body>
+        <header>
+            <h1>Invoice creator</h1>
+            <p>Thanks for choosing GoodCorp, LLC!</p>
+        </header>
+        
+        <main>
+            <div class="services">
+                <button class="chooseService" id="wash-car"></button>
+                <button class="chooseService" id="mow-lawn"></button>
+                <button class="chooseService" id="pull-weeds"></button>
+            </div>
+            
+            <table>
+                <thead>
+                    <tr class="gray">
+                        <th>TASK</th>
+                        <th align="right">TOTAL</th>
+                    </tr>
+                </thead>
+                
+                <tbody id="purchased-services"></tbody>
+                
+                <tfoot>
+                    <tr class="gray">
+                        <td>NOTES</td>
+                        <td align="right">TOTAL AMOUNT</td>
+                    </tr>
+                    <tr class="outcome"></tr>
+                </tfoot>
+            </table>
+            
+            <button class="invoice">Send invoice</button>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>

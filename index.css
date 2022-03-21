@@ -1,0 +1,107 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 550px;
+    background: #1F2937;
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+header {
+    background: #3A69D2;
+    height: 120px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    padding: 27px 0 5px;
+    font-weight: 800;
+}
+
+header p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.chooseService {
+    background: #D1D4F4;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 9px 13px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #4A4E74;
+}
+
+.chooseService:hover {
+    background: #9CA3AF;
+    color: #fff;
+    cursor: pointer;
+}
+
+table {
+    margin-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px 0;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+tfoot {
+    border-top: 1px solid #C3C6DB;
+}
+
+#sumPrice {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.invoice {
+    background: #3A69D2;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding: 9px 17px 9px 15px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+.invoice:hover {
+    background: #0EA5E9;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray, .remove {
+    color: #D5D4D8;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.remove:hover {
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
